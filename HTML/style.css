@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.795);
+    font-size: 20pt;
+   color: #fff;
+}
+
+.cabeçalho{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12pt;
+    position: relative;
+}
+
+nav a::after{
+    content:" ";
+    width: 0%;
+    height: 4px;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+nav a:hover::after{
+    width: 100%;
+}
+
+
+.header{
+    width: 100%;
+    padding: 50px 4%;   
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transition: .1s;
+}
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 40px;
+   
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.cabeçalho-lista-item{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 15%;
+    
+    font-size: 20px;
+    
+}
+
+header.rolagem{
+
+    background-image: linear-gradient(#000000,rgba(0, 0, 0, 0.123));
+    padding: 10px 0;
+}
+.sumario{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 20px;
+  
+}
+.topicos{
+    display: inline-block;
+    font-size: 18pt;
+    padding: 30px;
+    position: relative;
+    left: 1px;
+    cursor: pointer;
+}
+.topico-um{
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px ;
+
+}
+.topico-dois{
+    display: inline-block;
+    padding: 10px ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}.topico-tres{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px ;
+}
+.um-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-dois{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.titulo-tres{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+
+.topicoss{
+    display: inline-block;
+    font-size: 22pt;
+    padding: 30px;
+    position: relative;
+    right: 1px;
+    cursor: pointer;
+}
+.dois-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-quatro{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.tres-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-cinco{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.quatro-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-seis{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.cinco-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-sete{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.seis-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-oito{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.sete-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-nove{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.oito-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-dez{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.nove-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-onze{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.dez-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+.titulo-doze{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    
+    margin: 60 120px;
+    font-size: 25pt;
+}

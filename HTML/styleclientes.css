@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.795);
+    font-size: 20pt;
+   color: #fff;
+}
+.cabeçalho{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0
+}
+.cabeçalho-voltar-inicial{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+     font-size: 20pt;  
+}
+.cabeçalho-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.um-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-um{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.dois-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-dois{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.tres-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-tres{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.quatro-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-quatro{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.cinco-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-cinco{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.seis-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-seis{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    
+    margin: 60 120px;
+    font-size: 25pt;
+}

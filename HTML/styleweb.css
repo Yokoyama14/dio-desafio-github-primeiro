@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.795);
+    font-size: 20pt;
+   color: #fff;
+}
+.cabeçalho{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0
+}
+.cabeçalho-voltar-inicial{
+    align-items: flex-start;
+    justify-content: left;
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+     font-size: 20pt;  
+}
+.cabeçalho-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.um-paragrafo{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 10px;
+  
+}
+
+.titulo-um{
+    display: inline-block;
+    font-size: 22pt;
+    color: white;
+    padding: 30px;
+  
+}
+.topicos-um{
+    display: inline-block;
+    font-size: 18pt;
+    padding: 30px;
+    position: relative;
+    left: 1px;
+    
+}
+.topico-um{
+  
+    padding: 10px ;
+
+}
+.topico-dois{
+  
+    padding: 10px ;
+    
+
+}.topico-tres{
+    
+    
+    padding: 10px ;
+}
+.topicos-dois{
+    display: inline-block;
+    font-size: 18pt;
+    padding: 30px;
+    position: relative;
+    left: 1px;
+    
+}
+.topico-quatro{
+  
+    padding: 10px ;
+
+}
+.topico-cinco{
+  
+    padding: 10px ;
+    
+
+}.topico-seis{
+    
+    
+    padding: 10px ;
+}
+.topico-sete{
+  
+    padding: 10px ;
+
+}
+.topico-oito{
+  
+    padding: 10px ;
+    
+
+}.topico-nove{
+    
+    
+    padding: 10px ;
+}
+.topico-dez{
+  
+    padding: 10px ;
+    
+
+}.topico-onze{
+    
+    
+    padding: 10px ;
+}
+.topicos-tres{
+    display: inline-block;
+    font-size: 18pt;
+    padding: 30px;
+    position: relative;
+    left: 1px;
+    
+}
+.topico-doze{
+  
+    padding: 10px ;
+
+}
+.topico-treze{
+  
+    padding: 10px ;
+    
+
+}.topico-quatorze{
+    
+    
+    padding: 10px ;
+}
+.topico-quinze{
+  
+    padding: 10px ;
+
+}
+.topico-dezesseis{
+  
+    padding: 10px ;
+    
+
+}.topico-dezessete{
+    
+    
+    padding: 10px ;
+}
+.rodape{
+    background-color: black;
+    text-align: center;
+    
+    margin: 60 120px;
+    font-size: 25pt;
+}
